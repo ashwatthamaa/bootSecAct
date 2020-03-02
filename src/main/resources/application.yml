@@ -1,0 +1,13 @@
+server:
+  port: 8081
+  context-path: /
+#spring:
+#  security:
+#    user:
+#      name: pankaj
+#      password: pankaj
+management:
+  endpoints:
+    web:
+      exposure:
+        include: beans, metrics, health, info
